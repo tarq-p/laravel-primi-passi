@@ -145,7 +145,13 @@
         <link rel="stylesheet" href="css/app.css">
         <title></title>
     </head>
+    <header>
+
+    </header>
     <body>
+        <header>
+            @include('index')
+        </header>    
         <main>
             @if (!empty($lunghe))
                 <div class="title">

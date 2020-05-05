@@ -1,0 +1,13 @@
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    .navbar {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+
+        a {
+            padding-left: 10px;
+        }
+    }
+}

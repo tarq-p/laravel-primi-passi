@@ -31,3 +31,8 @@ Route::get('/header', function () {
 Route::get('/prodotti', function () {
     return view('prodotti');
 })->name('prodotti');
+
+
+Route::get('/chi siamo', function () {
+    return view('chisiamo');
+})->name('chi-siamo');

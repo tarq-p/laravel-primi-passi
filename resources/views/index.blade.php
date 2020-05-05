@@ -8,9 +8,9 @@
         <div class="logo">
             <img src="{{asset('img/marchio-sito-test.png')}}" alt="La Molisana">
         </div>
-        <ul>
+        <ul class="navbar">
             <a href="{{route('prodotti')}}">Prodotti</a>
-            <li>Chi Siamo</li>
+            <a href="#">Chi Siamo</a>
         </ul>
     </body>
 </html>

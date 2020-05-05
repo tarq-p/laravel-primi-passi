@@ -12,6 +12,21 @@
 
 /* Header */
 
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header .navbar {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+header .navbar a {
+  padding-left: 10px;
+}
+
 /* Main */
 
 main .title h2 {
