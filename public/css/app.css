@@ -29,6 +29,10 @@ header .navbar a {
 
 /* Main */
 
+main {
+  background-image: url(/images/fondo-pag-speciali.jpg?2f95c43d2f5c6ce37bf1838709b316a3);
+}
+
 main .title h2 {
   text-align: center;
 }
