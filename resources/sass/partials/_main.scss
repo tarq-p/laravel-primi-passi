@@ -1,7 +1,10 @@
 main {
-    background-image: url('../../img/fondo-pag-speciali.jpg');
+    .bkg-container {
+        background-image: url('../../img/fondo-pag-speciali.jpg');
+    }
     .title h2 {
-        text-align: center;
+        margin: 20px;;
+        color: white;
     }
 
     .cards {
