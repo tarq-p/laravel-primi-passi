@@ -7,10 +7,11 @@
     </head>
     <header>
         @include('index')
-    </header>    
+    </header>
         <main>
             @yield('main')
         </main>
+        @include('partials/footer')
     <body>
     </body>
 </html>

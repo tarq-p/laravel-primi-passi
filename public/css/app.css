@@ -79,3 +79,37 @@ main .cards .card .hover a h3 {
 
 /* Footer */
 
+footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer .container {
+  margin: 40px;
+}
+
+footer .container h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #00195f;
+}
+
+footer .container ul {
+  list-style: none;
+}
+
+footer .container ul li {
+  color: #00195f;
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+
+footer .container ul li a {
+  color: #00195f;
+}
+
+footer .sx ul li {
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+

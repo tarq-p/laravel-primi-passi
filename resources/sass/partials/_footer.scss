@@ -1,0 +1,32 @@
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    .container {
+        // flex-basis: calc(100% / 2 - 100px);
+        margin: 40px;
+        h3 {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            color: $primary_color;
+        }
+        ul {
+            list-style: none;
+            li {
+                color: $primary_color;
+                font-size: 13px;
+                padding-bottom: 10px;
+                a {
+                    color: $primary_color;;
+                }
+            }
+        }
+    }
+    .sx {
+        ul {
+            li {
+                font-size: 15px;
+                padding-bottom: 5px;
+            }
+        }
+    }
+}
