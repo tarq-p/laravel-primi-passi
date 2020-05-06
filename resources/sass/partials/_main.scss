@@ -17,6 +17,12 @@ main {
             margin: 20px;
             transition-duration: 0.5s;
             overflow: hidden;
+            @media only screen and (max-width: 900px) {
+                flex-basis: calc(100% / 2 - 40px);
+            }
+            @media only screen and (max-width: 480px) {
+                flex-basis: calc(100% / 1 - 40px);
+            }
 
             &:hover {
                 .hover {

@@ -40,7 +40,7 @@
         </ul>
     </div>
     <div class="container">
-        <h3>Collezzione dello Chef</h3>
+        <h3>Collezione dello Chef</h3>
         <ul>
             <li><a href="#">Collezione dello Chef</a></li>
             <li><a href="#">Grandi Cucine</a></li>

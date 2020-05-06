@@ -51,6 +51,18 @@ main .cards .card {
   overflow: hidden;
 }
 
+@media only screen and (max-width: 900px) {
+  main .cards .card {
+    flex-basis: calc(100% / 2 - 40px);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  main .cards .card {
+    flex-basis: calc(100% / 1 - 40px);
+  }
+}
+
 main .cards .card:hover .hover {
   display: block;
 }
@@ -85,7 +97,14 @@ footer {
 }
 
 footer .container {
+  flex-basis: calc(100% / 2 - 100px);
   margin: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  footer .container {
+    flex-basis: calc(100% / 1 - 40px);
+  }
 }
 
 footer .container h3 {
