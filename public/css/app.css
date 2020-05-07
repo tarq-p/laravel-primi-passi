@@ -111,6 +111,7 @@ main .cards .card .hover {
 
 main .cards .card .hover a {
   text-decoration: none;
+  color: #002d75;
 }
 
 main .cards .card .hover a h3 {
