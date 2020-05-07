@@ -16,7 +16,7 @@ footer {
             list-style: none;
             li {
                 color: $primary_color;
-                font-size: 13px;
+                font-size: 14px;
                 padding-bottom: 10px;
                 a {
                     color: $primary_color;;
@@ -26,10 +26,18 @@ footer {
     }
     .sx {
         ul {
+
             li {
                 font-size: 15px;
                 padding-bottom: 5px;
+                    a {
+                  text-decoration:none;
+                  color: black;
+               }
             }
         }
+    }
+    .container-bkg {
+        overflow-x: hidden;
     }
 }

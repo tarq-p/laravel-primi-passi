@@ -57,4 +57,7 @@
             <li><a href="#">CERTIFICAZIONI</a></li>
         </ul>
     </div>
+    <div class="container-bkg">
+        <img src="https://www.lamolisana.it/wp-content/uploads/2017/10/footer-montagne-bottom.jpg" alt="">
+    </div>
 </footer>
