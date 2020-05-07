@@ -32,6 +32,9 @@ Route::get('/prodotti', function () {
     return view('prodotti');
 })->name('prodotti');
 
+Route::get('/prodotti/{id}', function($id){
+    return view('product', compact('id'));
+})->name('prodotti.show');
 
 Route::get('admin/prodotti', function () {
     return view('admin');

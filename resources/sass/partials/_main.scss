@@ -1,6 +1,17 @@
 main {
+    position: relative;
     .bkg-container {
         background-image: url('../../img/fondo-pag-speciali.jpg');
+    }
+    .prodotto h3 {
+        color: $third_color;
+    }
+    .prodotto p {
+        font-size: 16px;
+        position: absolute;
+        color: $third_color;
+        text-align: center;
+        bottom: 10px;
     }
     .title h2 {
         margin: 18px;;
