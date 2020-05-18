@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-// use Illuminate\Http\Request;
+use Illuminate\Http\Request;
 use App\Product;
 
 class ProductController extends Controller
@@ -13,7 +13,7 @@ class ProductController extends Controller
         $products = Product::all();
         dd($products);
 
-        return view('home',['cards'=>'products']);
+        return view('home', compact($products));
 
     }
 }
