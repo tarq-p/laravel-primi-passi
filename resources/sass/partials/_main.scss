@@ -65,6 +65,9 @@ main {
                         padding-bottom: 10px;
                     }
                 }
+                svg:hover {
+                  fill: $third_color;
+                }
             }
         }
     }

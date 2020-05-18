@@ -123,6 +123,6 @@
     ]';
 
     $database = json_decode($data, true);
-    
+
 return $database;
 ?>
