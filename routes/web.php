@@ -18,24 +18,26 @@ use Illuminate\Support\Facades\Route;
 // });
 //
 
-Route::get('/' , 'ProductController@index') -> name('home');
-
-// Route::get('/', function () {
-//     return view('index');
-// })->name('index');
+// Route::get('/' , 'ProductController@index') -> name('home');
 
 
-// Route::get('/header', function () {
-//     return view('home');
-// })->name('home');
+
+
+Route::get('/', function () {
+    return view('index');
+})->name('index');
+
+Route::get('/home', function () {
+    return view('index');
+})->name('index');
 
 Route::get('/prodotti', function () {
     return view('prodotti');
 })->name('prodotti');
 
-Route::get('/prodotti/{id}', function($id){
-    return view('product', compact('id'));
-})->name('prodotti.show');
+// Route::get('/prodotti/{id}', function($id){
+//     return view('product', compact('id'));
+// })->name('prodotti.show');
 
 Route::get('admin/prodotti', function () {
     return view('admin');
